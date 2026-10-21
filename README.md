@@ -57,3 +57,9 @@ erDiagram
 1. **Schema Initialization:** Execute the DDL statements in the core script to create the schema (`Saas_Metrics_DB`).
 2. **Data Seeding:** Run the `INSERT INTO` payloads to generate the foundational client base and temporal logs.
 3. **Analytics Delivery:** Execute the metrics queries to extract product performance matrices.
+
+ ## Microsoft Excel Analytics Layer
+To turn these database results into executive-friendly assets, I used an ETL approach to extract the primary data pipelines into an enterprise Excel environment:
+* **Centralized KPI Cards:** Dynamically tracks total recurring revenue metrics ($20,350), gross account logs (50), and verified active customer health counts.
+* **Support Friction Data Modeling:** Built segmented multi-dimensional Pivot Tables outlining cross-industry ticket loads and status velocities.
+* **Executive Clustered Chart:** Designed a front-end visualization layout illustrating the high-contrast gap between healthy active clients and high-friction churned accounts.
